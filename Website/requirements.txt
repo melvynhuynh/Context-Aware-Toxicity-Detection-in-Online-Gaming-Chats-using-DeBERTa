@@ -1,0 +1,10 @@
+# Demo app deps. Pin transformers to 5.1.0 — newer 5.8.x has a DeBERTa-v2
+# CPU forward-pass regression that silently produces wrong predictions
+# (verified: 5.8.1 returns macro F1 ~0.21 on a model that 5.1.0 returns 0.83).
+streamlit
+torch
+transformers==5.1.0
+sentencepiece
+pandas
+plotly
+huggingface_hub

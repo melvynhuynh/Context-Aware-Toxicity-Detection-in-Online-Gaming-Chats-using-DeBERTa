@@ -1,0 +1,35 @@
+{
+  "k": 10,
+  "model_name": "microsoft/deberta-v3-base",
+  "max_length": 256,
+  "train_minutes": 14.77519462108612,
+  "final_train_loss": 0.39862405408087476,
+  "eval_metrics": {
+    "eval_loss": 0.3984844982624054,
+    "eval_accuracy": 0.9065076888789837,
+    "eval_f1_macro": 0.8130834623834902,
+    "eval_f1_E": 0.8408128704487722,
+    "eval_f1_I": 0.7332667332667333,
+    "eval_f1_A": 0.7332123411978222,
+    "eval_f1_O": 0.9450419046206334,
+    "eval_runtime": 19.5124,
+    "eval_samples_per_second": 459.912,
+    "eval_steps_per_second": 14.401,
+    "epoch": 5.0
+  },
+  "label2id": {
+    "E": 0,
+    "I": 1,
+    "A": 2,
+    "O": 3
+  },
+  "id2label": {
+    "0": "E",
+    "1": "I",
+    "2": "A",
+    "3": "O"
+  },
+  "sep_token": "[SEP]",
+  "speaker_tag_format": "P{playerSlot}:",
+  "seed": 27
+}
